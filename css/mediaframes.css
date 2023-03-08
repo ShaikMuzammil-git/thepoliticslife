@@ -1,0 +1,74 @@
+/* Media Frames */
+
+@media (max-width: 1392px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+  .section {
+    padding: 3rem;
+  }
+  .intro-h1 {
+    font-size: 6rem;
+    width: 80%;
+  }
+  .txt {
+    width: 80%;
+  }
+  .trust {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 8px;
+  }
+  /* h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2rem;
+  } */
+  .navBar {
+    border: 2px solid white;
+  }
+
+  .txt {
+    width: 90%;
+  }
+  .section {
+    padding: 2rem;
+    overflow-x: auto;
+  }
+  .socialMediaServices ul {
+    font-size: 3rem;
+    margin: 2rem;
+  }
+  .trust {
+    font-size: 6rem;
+  }
+  #survey-form {
+    grid-template-columns: 1fr;
+    padding: 0 5%;
+  }
+  label {
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  .contactUs-grid {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+}
